@@ -1,14 +1,56 @@
 * load the default Redmine stylesheet */
 @import url(../../../stylesheets/application.css);
 
-/* add a logo in the header */
-#header {
-    background: #507AAA url(../images/logo.png) no-repeat 2px;
-    padding-left: 86px;
+/* general */
+body {
+ padding: 0px 10px;
 }
 
-/* move the project menu to the right */
+/* top-menu */
+#top-menu {
+    background: #fff;
+}
+
+#top-menu a {
+    color: #3E5B76;
+}
+
+/* header */
+#header {
+    background: #A5CED1 url(https://www.eionet.europa.eu/styles/eionet2007/top_01.png) repeat-y;
+    height: 120px;
+    border-top: 4px solid #6F7072;
+}
+
+#header h1 {
+    background: url(ftp://ftp.eaudeweb.ro/Sonia/EEA_agency_logo_for_Redmine.png) no-repeat;
+    padding-left: 40px;
+    margin-top: 25px;
+}
+
+#quick-search {
+    height: 120px;
+    background: transparent url('https://www.eionet.europa.eu/styles/eionet2007/top_graphic.gif') center left no-repeat;
+}
+
+#quick-search label,
+#quick-search label a {
+    color: #00446A;
+}
+
 #main-menu {
-    left: auto;
-    right: 0px;
+    background: #00446A;
+    width: 100%;
+    left: 0px;
+}
+
+#main-menu li a {
+    font-weight: normal;
+}
+
+/* footer */
+#footer {
+    background: #CEDC32;
+    padding: 15px;
+    color: #999;
 }
