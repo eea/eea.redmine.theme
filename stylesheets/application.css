@@ -18,7 +18,7 @@ body {
 /* header */
 #header {
     background: #A5CED1 url(../images/top_01.png) repeat-y;
-    height: 120px;
+    height: 105px;
     border-top: 4px solid #6F7072;
 }
 
@@ -26,11 +26,7 @@ body {
     background: url(../images/EEA_agency_logo_for_Redmine.png) no-repeat;
     padding-left: 40px;
     margin-top: 25px;
-}
-
-#quick-search {
-    height: 120px;
-    background: transparent url(../images/top_graphic.gif) center left no-repeat;
+    display: inline-block;
 }
 
 #quick-search label,
@@ -46,6 +42,14 @@ body {
 
 #main-menu li a {
     font-weight: normal;
+}
+
+#right-image-container {
+    background: url(../images/top_graphic.gif) 0% 0% no-repeat;
+    float: right;
+    width: 323px;
+    height: 102px;
+    margin-top: -68px;
 }
 
 /* footer */
