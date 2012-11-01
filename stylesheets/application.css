@@ -17,20 +17,20 @@ body {
 
 /* header */
 #header {
-    background: #A5CED1 url(https://www.eionet.europa.eu/styles/eionet2007/top_01.png) repeat-y;
+    background: #A5CED1 url(top_01.png) repeat-y;
     height: 120px;
     border-top: 4px solid #6F7072;
 }
 
 #header h1 {
-    background: url(ftp://ftp.eaudeweb.ro/Sonia/EEA_agency_logo_for_Redmine.png) no-repeat;
+    background: url(EEA_agency_logo_for_Redmine.png) no-repeat;
     padding-left: 40px;
     margin-top: 25px;
 }
 
 #quick-search {
     height: 120px;
-    background: transparent url('https://www.eionet.europa.eu/styles/eionet2007/top_graphic.gif') center left no-repeat;
+    background: transparent url('top_graphic.gif') center left no-repeat;
 }
 
 #quick-search label,

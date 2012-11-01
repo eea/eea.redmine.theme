@@ -10,7 +10,13 @@ function setupProjectTitle() {
     }
 }
 
+function insertRightImageContainer() {
+    var redmine_header = $('#header');
+    redmine_header.append('<div id="right-image-container"></div>');
+}  
+
 // Load custom JavaScript
 jQuery(document).ready(function() {
     setupProjectTitle();
+    insertRightImageContainer();
 });
