@@ -54,3 +54,26 @@ body {
     padding: 15px;
     color: #999;
 }
+
+/* move search box */
+body #top-menu {
+    height: 25px;
+}
+
+#quick-search {
+    margin-top: -33px;
+    height: 24px;
+    background: transparent;
+}
+
+/* relocate the menu for sign in */
+#account ul {
+    display: block;
+    margin-right: 415px;
+}
+
+#account ul,
+#loggedas,
+#top-menu ul {
+    margin-top: 5px;
+}
