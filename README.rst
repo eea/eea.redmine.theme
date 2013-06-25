@@ -15,6 +15,7 @@ Installation
 ============
 
   * `http://www.redmine.org/projects/redmine/wiki/Themes <http://www.redmine.org/projects/redmine/wiki/Themes>`_
+  * `http://taskman.eionet.europa.eu/projects/taskman/wiki/HowToUpgradeTaskman <http://taskman.eionet.europa.eu/projects/taskman/wiki/HowToUpgradeTaskman>`_
 
 Copyright and license
 =====================
