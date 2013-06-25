@@ -44,10 +44,6 @@ body {
 }
 
 #right-image-container {
-    background: url(../images/top_graphic.gif) 0% 0% no-repeat;
-    float: right;
-    width: 323px;
-    height: 102px;
 }
 
 /* footer */
