@@ -5,7 +5,8 @@ EEA Redmine Theme
 Introduction
 ============
 
-This package is a Redmine theme providing EIONET look and feel to EEA Redmine instance. This theme was based on EIONET design 2007:
+This package is a Redmine theme providing EIONET look and feel to EEA Redmine instance.
+This theme was based on EIONET design 2007:
 
   * `https://www.eionet.europa.eu/styles <https://www.eionet.europa.eu/styles>`_
 
