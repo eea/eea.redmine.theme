@@ -59,7 +59,7 @@ body #top-menu {
 }
 
 #quick-search {
-    margin-top: -33px;
+/*    margin-top: -33px;*/
     height: 24px;
     background: transparent;
 }
@@ -67,7 +67,7 @@ body #top-menu {
 /* relocate the menu for sign in */
 #account ul {
     display: block;
-    margin-right: 415px;
+/*    margin-right: 415px;*/
 }
 
 #account ul,
