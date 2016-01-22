@@ -1,5 +1,5 @@
 /* load the default Redmine stylesheet */
-@import url( ../../../plugin_assets/redmine_responsive/assets/stylesheets/responsive.css);
+@import url(../../../stylesheets/responsive.css);
 
 @media all and (max-width: 899px)
 {
