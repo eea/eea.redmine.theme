@@ -75,3 +75,5 @@ body #top-menu {
 #top-menu ul {
     margin-top: 5px;
 }
+
+.controller-mail_reminders select{ width: 100%; }
