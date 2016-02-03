@@ -5,7 +5,7 @@
 {
     #header{ height: auto; overflow: hidden; }
     #header h1 { display: block !important; font-size: 1em; float: left; margin-top: 5px; clar: both; }
-    #header #quick-search select{ font-size: 1em; top: 12px; height: 2em; padding-left: 40px; }
+    #header #quick-search select{ font-size: 1em; top: 5px; height: 2em; padding-left: 40px; }
     .mobile-toggle-button{ height: 40px; border-left: none; }
     
 }
