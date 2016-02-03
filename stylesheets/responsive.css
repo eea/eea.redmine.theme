@@ -1,13 +1,32 @@
 /* load the default Redmine stylesheet */
 @import url(../../../stylesheets/responsive.css);
 
+.stacktable { width: 100%; }
+.st-head-row { padding-top: 1em; }
+.st-head-row.st-head-row-main { font-size: 1.5em; padding-top: 0; }
+.st-key { width: 49%; text-align: right; padding-right: 1%; }
+.st-val { width: 49%; padding-left: 1%; }
+
+
+
+/* RESPONSIVE EXAMPLE */
+
+.stacktable.large-only { display: table; }
+.stacktable.small-only { display: none; }
+
+@media (max-width: 800px) {
+  .stacktable.large-only { display: none; }
+  .stacktable.small-only { display: table; }
+}
+
 @media all and (max-width: 899px)
 {
     #header{ height: auto; overflow: hidden; }
     #header h1 { display: block !important; font-size: 1em; float: left; margin-top: 5px; clar: both; }
     #header #quick-search select{ font-size: 1em; top: 5px; height: 2em; padding-left: 40px; }
     .mobile-toggle-button{ height: 40px; border-left: none; }
-    
+    table.list #check_all, 
+    table.list .checkbox{ display: none; }
 }
 
 @media print
