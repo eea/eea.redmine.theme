@@ -91,3 +91,8 @@ body #top-menu {
 }
 
 .controller-mail_reminders select{ width: 100%; }
+
+#admin-menu a.wiki-links { 
+                           background-repeat: no-repeat;
+                           padding-left: 20px; }
+
