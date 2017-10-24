@@ -56,7 +56,7 @@ body {
 }
 
 /* agile board */
-#sidebar {
+.agile-board-fullscreen #sidebar {
     z-index: 0 !important;
 }
 
