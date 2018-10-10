@@ -216,10 +216,17 @@ function insertRightImageContainer() {
     redmine_header.append('<div id="right-image-container"></div>');
 }  
 
+function blockSearchAnonymous(){
+    if (!$('#loggedas').length) {
+        $('#quick-search form').hide();     
+    }
+}
+
 // Load custom JavaScript
 jQuery(document).ready(function() {
     setupProjectTitle();
     insertRightImageContainer();
+    blockSearchAnonymous();
     $('table.issues').stacktable({headIndex: 1});
     $('table.time-entries').stacktable({headIndex: 1});
 });
