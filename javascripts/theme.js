@@ -218,7 +218,14 @@ function insertRightImageContainer() {
 
 function blockSearchAnonymous(){
     if (!$('#loggedas').length) {
-        $('#quick-search form').hide();     
+        $('#quick-search form').hide();
+        document.cookie='_redmine_eea=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+    }
+    else
+    {
+        var d = new Date();
+        d.setTime(d.getTime() + 86400000);
+        document.cookie='_redmine_eea=1; expires='+d.toUTCString()+';path=/';
     }
 }
 
