@@ -229,11 +229,22 @@ function blockSearchAnonymous(){
     }
 }
 
+// Redmine 4.0.3 fixes, see #104603
+function fixHistoryView(){
+    var length = $('#issue-changesets').nextUntil('#history').length;
+    let i = 0;
+    while (i < length) { 
+      $('#history').prev().insertAfter('#history'); 
+      i++;
+    }
+}
+
 // Load custom JavaScript
 jQuery(document).ready(function() {
     setupProjectTitle();
     insertRightImageContainer();
     blockSearchAnonymous();
+    fixHistoryView();
     $('table.issues').stacktable({headIndex: 1});
     $('table.time-entries').stacktable({headIndex: 1});
 });
