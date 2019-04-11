@@ -110,3 +110,8 @@ body #top-menu {
 #projects-index ul.projects li.root {
 	overflow: hidden;
 }
+
+#projects-index ul.projects div.description {
+    padding-top: 0.5em;
+    display: none;
+}
