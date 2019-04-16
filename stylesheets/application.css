@@ -115,3 +115,7 @@ body #top-menu {
     padding-top: 0.5em;
     display: none;
 }
+
+#content .jstTabs.tabs {
+    margin-bottom: 0px;
+}
