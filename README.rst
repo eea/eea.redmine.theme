@@ -2,6 +2,8 @@
 EEA Redmine Theme
 =================
 
+The current Taskman theme has been changed to `taskman.redmine.theme <https://github.com/eea/taskman.redmine.theme>`_.
+
 Introduction
 ============
 
