@@ -239,12 +239,27 @@ function fixHistoryView(){
     }
 }
 
+function editWikiQuickSearch() {
+
+    var pathname = window.location.pathname;
+ 
+
+    if  (pathname.match('/projects/.*/wiki/.*/edit') )) {
+            $.getScript("/themes/taskman.redmine.theme/javascripts/select2.min.js", function() {
+            if ($('#wiki_page_parent_id').length > 0) {$('#wiki_page_parent_id').select2();}
+           });
+    }
+
+}
+
+
 // Load custom JavaScript
 jQuery(document).ready(function() {
     setupProjectTitle();
     insertRightImageContainer();
     blockSearchAnonymous();
     fixHistoryView();
+    editWikiQuickSearch();
     $('table.issues').stacktable({headIndex: 1});
     $('table.time-entries').stacktable({headIndex: 1});
 });
